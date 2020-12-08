@@ -1,17 +1,29 @@
 body, html {
     height: 100%;
     margin: 0;
-  }
-  
-  .bg {
-    /* The image used */
+}
+
+.bg {
     background-image: url("img/background.jpg");
-  
-    /* Full height */
     height: 100%; 
-  
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
+
+.main_center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.main_center_title {
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+}
+
+.main_center_content {
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+}
