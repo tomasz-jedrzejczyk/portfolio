@@ -1,0 +1,1 @@
+window.onbeforeunload = function() { window.scrollY(0)}
