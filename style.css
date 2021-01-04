@@ -38,3 +38,12 @@ body, html {
 .contact{
     background-color: gray;
 }
+
+.navbar navbar-dark bg-dark{
+    height: 10px;
+
+}
+
+li{
+    color: white;
+}

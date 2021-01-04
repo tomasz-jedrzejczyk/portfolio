@@ -1,1 +1,6 @@
-window.onbeforeunload = function() { window.scrollY(0)}
+$(function () {
+    $(document).scroll(function () {
+      var $nav = $(".navigator");
+      $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    });
+  });
