@@ -4,7 +4,7 @@ body, html {
     scroll-behavior: smooth;
 }
 
-.bg {
+.background {
     background-image: url("img/background.jpg");
     height: 100%; 
     background-position: center;
@@ -12,23 +12,38 @@ body, html {
     background-size: cover;
 }
 
-.main_center {
+.center_contentter {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
-
-.main_center_title {
-    font-family: 'Noto Sans', sans-serif;
-    color: white;
+.my_work {
+    margin: 50px;
+}
+.my_work .row {
+    margin: 30px;
 }
 
-.main_center_content {
-    font-family: 'Noto Sans', sans-serif;
-    color: white;
+.my_work .row h4 {
+    margin-bottom: 50px;
 }
 
-#mid{
-    height: 500px;
+.footer_table{
+    width: 100%;
+    position: absolute;
+    background-color: rgb(15, 15, 15);
+}
+
+.contact{
+    background-color: gray;
+}
+
+.navbar navbar-dark bg-dark{
+    height: 10px;
+
+}
+
+li{
+    color: white;
 }
